@@ -1,0 +1,247 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Palette+Mosaic&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(food.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 5%;
+    padding-left: 3%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    font-size: 50px;
+    color: red;
+    margin-top: 5px;
+    font-family: 'Palette Mosaic', cursive;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+nav {
+    flex: 1;
+    padding-left: 660px;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    gap: 2px;
+}
+.content {
+    position: relative;
+}
+.container h1 {
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 100px;
+    letter-spacing: .1em;
+    font-size: 70px;
+    color: #1b1b1b;
+}
+.container h1{
+    color: blue;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: 'Lobster', cursive;
+}
+.text {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.btn {
+    background-color: #eda134;
+    margin-top: 80px;
+    padding: 15px 45px;
+    border: none;
+    outline: none;
+    transition: .5s;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 24px;
+    display: block;
+    border-radius: 30px;
+    background-size: 200% auto;
+    box-shadow: 3px 8px 22px rgba(22,21,21,.15);
+}
+.social-media {
+    font-family: 'Poppins',sans-serif;
+    margin-top: 80px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 27px;
+}
+.icons {
+    color: Blue;
+    padding: 12px 12px 10px 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 10px;
+    height: 27px;
+    width: 27px;
+    text-align: center;
+    box-shadow: 3px 8px 22px rgba(22,21,21,.15);
+}
+.icons:hover {
+    transform: scale(1.1);
+    color: #fff;
+    background-color: #eda134;
+    transition: all .5s;
+}
+.image {
+    position: absolute;
+    width: auto;
+    bottom: 0;
+    height: 60%;
+    margin-left: 810px;
+    margin-bottom: 120px;
+}
+
+.menu, .contact{
+    text-align: center;
+    color: red;
+    background-color: black;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.menu-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #eda134;
+}
+
+.menu-item img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    margin-bottom: 10px;
+}
+
+.contact-container {
+    text-align: center;
+    background-color: black;
+    padding: 50px;
+    }
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    font-size: 30px;
+    color: wheat;
+    margin: 10px 0;
+}
+
+.contact-icon {
+    margin-right: 10px;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 26px;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #c62828;
+}
+
+/* Additional styles for a modern look */
+.contact-container {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.contact-icon {
+    font-size: 22px;
+}
+
+.contact-button {
+    font-weight: bold;
+    /* letter-spacing: 1px; */
+    text-transform: capitalize;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #e53935;
+    color: #fff;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    background-color: #eda134;
+    font-size: 20px;
+    color: white;
+}
+
+.copyright:before,
+.copyright:after {
+    content: '';
+    flex: 1;
+    height: 2px;
+    background-color: #333;
+    margin: 0 10px;
+}
